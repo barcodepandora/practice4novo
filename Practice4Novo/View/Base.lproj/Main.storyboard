@@ -10,7 +10,7 @@
         <!--Practice View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PracticeViewController" customModule="Practice4Novo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Practice" id="BYZ-38-t0r" customClass="PracticeViewController" customModule="Practice4Novo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PinkViewController: UIViewController {
+class PinkViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,5 +26,10 @@ class PinkViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+//    override func toPrevious() {
+//        let story = UIStoryboard(name: "Main", bundle: nil)
+//        let previous = story.instantiateViewController(withIdentifier: "Practice")
+//        self.navigationController!.popToViewController(previous, animated: true)    }
 
 }

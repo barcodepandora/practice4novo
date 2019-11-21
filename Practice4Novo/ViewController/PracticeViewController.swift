@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PracticeViewController: UIViewController, PresenterDelegate, UNUserNotificationCenterDelegate {
+class PracticeViewController: BaseViewController, PresenterDelegate, UNUserNotificationCenterDelegate {
 
     // MARK: - Character
     
@@ -45,7 +45,7 @@ class PracticeViewController: UIViewController, PresenterDelegate, UNUserNotific
         self.toNext()
     }
     
-    func toNext() {
+    override func toNext() {
         let story = UIStoryboard(name: "Main", bundle: nil)
         let next = story.instantiateViewController(withIdentifier: "Pink")
         self.navigationController!.pushViewController(next, animated: true)
