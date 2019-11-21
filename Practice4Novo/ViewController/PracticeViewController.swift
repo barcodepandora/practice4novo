@@ -22,7 +22,7 @@ class PracticeViewController: BaseViewController, PresenterDelegate, UNUserNotif
         // Do any additional setup after loading the view.
         self.presenter = PracticePresenterPush()
         presenter!.delegate = self
-        presenter!.prepareMessaging()
+//        presenter!.prepareMessaging()
     }
     
 

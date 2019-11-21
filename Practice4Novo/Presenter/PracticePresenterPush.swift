@@ -29,6 +29,7 @@ class PracticePresenterPush: PracticePresenter {
 //          application.registerUserNotificationSettings(settings)
         }
 
+//        Messaging.messaging().delegate = UIApplication.shared as! MessagingDelegate
         UIApplication.shared.registerForRemoteNotifications()
     }
 }
