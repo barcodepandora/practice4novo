@@ -39,4 +39,15 @@ class PracticeViewController: UIViewController, PresenterDelegate, UNUserNotific
     // MARK: - Delegate
     
     func refresh() {}
+    
+    
+    @IBAction func doBut(_ sender: Any) {
+        self.toNext()
+    }
+    
+    func toNext() {
+        let story = UIStoryboard(name: "Main", bundle: nil)
+        let next = story.instantiateViewController(withIdentifier: "Pink")
+        self.navigationController!.pushViewController(next, animated: true)
+    }
 }
