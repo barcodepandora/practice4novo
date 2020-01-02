@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBF07220C4C1FFEC19B2DAD /* Pods_Practice4Novo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4359B96DDCEFD6D175A73E9 /* Pods_Practice4Novo.framework */; };
+		609952052386CDF30054B39E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609952042386CDF30054B39E /* AppDelegate.swift */; };
+		609952072386CDF30054B39E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609952062386CDF30054B39E /* SceneDelegate.swift */; };
+		609952092386CDF30054B39E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609952082386CDF30054B39E /* ViewController.swift */; };
+		6099520C2386CDF30054B39E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6099520A2386CDF30054B39E /* Main.storyboard */; };
+		6099520E2386CDFC0054B39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6099520D2386CDFC0054B39E /* Assets.xcassets */; };
+		609952112386CDFC0054B39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6099520F2386CDFC0054B39E /* LaunchScreen.storyboard */; };
+		609952192386D2100054B39E /* PracticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609952182386D2100054B39E /* PracticeView.xib */; };
+		6099521B2386D7250054B39E /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6099521A2386D7250054B39E /* PracticeView.swift */; };
+		6099521F2386F50F0054B39E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6099521E2386F50F0054B39E /* GoogleService-Info.plist */; };
+		609952222386FFEB0054B39E /* PracticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609952212386FFEB0054B39E /* PracticePresenter.swift */; };
+		60995224238700980054B39E /* PracticePresenterPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60995223238700980054B39E /* PracticePresenterPush.swift */; };
+		609952272387014B0054B39E /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609952262387014B0054B39E /* PracticeViewController.swift */; };
+		609952292387216A0054B39E /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609952282387216A0054B39E /* PinkViewController.swift */; };
+		6099522B2387300A0054B39E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6099522A2387300A0054B39E /* BaseViewController.swift */; };
+		72661FAD239ABA3700B4FC4E /* Practice4NovoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72661FAC239ABA3700B4FC4E /* Practice4NovoTests.swift */; };
+		72661FB5239ABB3300B4FC4E /* BaseViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6099522A2387300A0054B39E /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72661FAF239ABA3700B4FC4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609951F92386CDF30054B39E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609952002386CDF30054B39E;
+			remoteInfo = Practice4Novo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59C8A98CB5D018AFA38D2CD2 /* Pods-Practice4Novo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice4Novo.release.xcconfig"; path = "Target Support Files/Pods-Practice4Novo/Pods-Practice4Novo.release.xcconfig"; sourceTree = "<group>"; };
+		609952012386CDF30054B39E /* Practice4Novo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice4Novo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		609952042386CDF30054B39E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		609952062386CDF30054B39E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		609952082386CDF30054B39E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6099520B2386CDF30054B39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6099520D2386CDFC0054B39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		609952102386CDFC0054B39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		609952122386CDFC0054B39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609952182386D2100054B39E /* PracticeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticeView.xib; sourceTree = "<group>"; };
+		6099521A2386D7250054B39E /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		6099521E2386F50F0054B39E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		609952212386FFEB0054B39E /* PracticePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePresenter.swift; sourceTree = "<group>"; };
+		60995223238700980054B39E /* PracticePresenterPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePresenterPush.swift; sourceTree = "<group>"; };
+		609952262387014B0054B39E /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		609952282387216A0054B39E /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		6099522A2387300A0054B39E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		72661FAA239ABA3700B4FC4E /* Practice4NovoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practice4NovoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72661FAC239ABA3700B4FC4E /* Practice4NovoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice4NovoTests.swift; sourceTree = "<group>"; };
+		72661FAE239ABA3700B4FC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04E10DFF158AE09BF592736 /* Pods-Practice4Novo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice4Novo.debug.xcconfig"; path = "Target Support Files/Pods-Practice4Novo/Pods-Practice4Novo.debug.xcconfig"; sourceTree = "<group>"; };
+		B4359B96DDCEFD6D175A73E9 /* Pods_Practice4Novo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practice4Novo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609951FE2386CDF30054B39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBF07220C4C1FFEC19B2DAD /* Pods_Practice4Novo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72661FA7239ABA3700B4FC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		609951F82386CDF30054B39E = {
+			isa = PBXGroup;
+			children = (
+				609952032386CDF30054B39E /* Practice4Novo */,
+				72661FAB239ABA3700B4FC4E /* Practice4NovoTests */,
+				609952022386CDF30054B39E /* Products */,
+				D97A63BB456DBF93AA027DB1 /* Pods */,
+				6143BAB08D2FFB0DFBC683C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		609952022386CDF30054B39E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609952012386CDF30054B39E /* Practice4Novo.app */,
+				72661FAA239ABA3700B4FC4E /* Practice4NovoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		609952032386CDF30054B39E /* Practice4Novo */ = {
+			isa = PBXGroup;
+			children = (
+				609952252387012D0054B39E /* ViewController */,
+				609952202386FFA80054B39E /* Presenter */,
+				6099521D2386F4F50054B39E /* Firebase */,
+				6099521C2386F4C60054B39E /* View */,
+				609952042386CDF30054B39E /* AppDelegate.swift */,
+				609952062386CDF30054B39E /* SceneDelegate.swift */,
+				609952082386CDF30054B39E /* ViewController.swift */,
+				6099520D2386CDFC0054B39E /* Assets.xcassets */,
+				6099520F2386CDFC0054B39E /* LaunchScreen.storyboard */,
+				6099521E2386F50F0054B39E /* GoogleService-Info.plist */,
+				609952122386CDFC0054B39E /* Info.plist */,
+			);
+			path = Practice4Novo;
+			sourceTree = "<group>";
+		};
+		6099521C2386F4C60054B39E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6099521A2386D7250054B39E /* PracticeView.swift */,
+				6099520A2386CDF30054B39E /* Main.storyboard */,
+				609952182386D2100054B39E /* PracticeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6099521D2386F4F50054B39E /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		609952202386FFA80054B39E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				609952212386FFEB0054B39E /* PracticePresenter.swift */,
+				60995223238700980054B39E /* PracticePresenterPush.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		609952252387012D0054B39E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				609952262387014B0054B39E /* PracticeViewController.swift */,
+				609952282387216A0054B39E /* PinkViewController.swift */,
+				6099522A2387300A0054B39E /* BaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6143BAB08D2FFB0DFBC683C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4359B96DDCEFD6D175A73E9 /* Pods_Practice4Novo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72661FAB239ABA3700B4FC4E /* Practice4NovoTests */ = {
+			isa = PBXGroup;
+			children = (
+				72661FAC239ABA3700B4FC4E /* Practice4NovoTests.swift */,
+				72661FAE239ABA3700B4FC4E /* Info.plist */,
+			);
+			path = Practice4NovoTests;
+			sourceTree = "<group>";
+		};
+		D97A63BB456DBF93AA027DB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B04E10DFF158AE09BF592736 /* Pods-Practice4Novo.debug.xcconfig */,
+				59C8A98CB5D018AFA38D2CD2 /* Pods-Practice4Novo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		609952002386CDF30054B39E /* Practice4Novo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609952152386CDFC0054B39E /* Build configuration list for PBXNativeTarget "Practice4Novo" */;
+			buildPhases = (
+				5BED1ED89FB260F9F4BC3FC8 /* [CP] Check Pods Manifest.lock */,
+				609951FD2386CDF30054B39E /* Sources */,
+				609951FE2386CDF30054B39E /* Frameworks */,
+				609951FF2386CDF30054B39E /* Resources */,
+				4126F1744D24081EE56632B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practice4Novo;
+			productName = Practice4Novo;
+			productReference = 609952012386CDF30054B39E /* Practice4Novo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72661FA9239ABA3700B4FC4E /* Practice4NovoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72661FB1239ABA3700B4FC4E /* Build configuration list for PBXNativeTarget "Practice4NovoTests" */;
+			buildPhases = (
+				72661FA6239ABA3700B4FC4E /* Sources */,
+				72661FA7239ABA3700B4FC4E /* Frameworks */,
+				72661FA8239ABA3700B4FC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72661FB0239ABA3700B4FC4E /* PBXTargetDependency */,
+			);
+			name = Practice4NovoTests;
+			productName = Practice4NovoTests;
+			productReference = 72661FAA239ABA3700B4FC4E /* Practice4NovoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		609951F92386CDF30054B39E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Juan Manuel Moreno";
+				TargetAttributes = {
+					609952002386CDF30054B39E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					72661FA9239ABA3700B4FC4E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 609952002386CDF30054B39E;
+					};
+				};
+			};
+			buildConfigurationList = 609951FC2386CDF30054B39E /* Build configuration list for PBXProject "Practice4Novo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 609951F82386CDF30054B39E;
+			productRefGroup = 609952022386CDF30054B39E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				609952002386CDF30054B39E /* Practice4Novo */,
+				72661FA9239ABA3700B4FC4E /* Practice4NovoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609951FF2386CDF30054B39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609952112386CDFC0054B39E /* LaunchScreen.storyboard in Resources */,
+				6099520E2386CDFC0054B39E /* Assets.xcassets in Resources */,
+				6099521F2386F50F0054B39E /* GoogleService-Info.plist in Resources */,
+				6099520C2386CDF30054B39E /* Main.storyboard in Resources */,
+				609952192386D2100054B39E /* PracticeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72661FA8239ABA3700B4FC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72661FB5239ABB3300B4FC4E /* BaseViewController.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4126F1744D24081EE56632B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Practice4Novo/Pods-Practice4Novo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Practice4Novo/Pods-Practice4Novo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Practice4Novo/Pods-Practice4Novo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BED1ED89FB260F9F4BC3FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Practice4Novo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		609951FD2386CDF30054B39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609952092386CDF30054B39E /* ViewController.swift in Sources */,
+				609952052386CDF30054B39E /* AppDelegate.swift in Sources */,
+				609952072386CDF30054B39E /* SceneDelegate.swift in Sources */,
+				609952272387014B0054B39E /* PracticeViewController.swift in Sources */,
+				609952292387216A0054B39E /* PinkViewController.swift in Sources */,
+				6099522B2387300A0054B39E /* BaseViewController.swift in Sources */,
+				6099521B2386D7250054B39E /* PracticeView.swift in Sources */,
+				609952222386FFEB0054B39E /* PracticePresenter.swift in Sources */,
+				60995224238700980054B39E /* PracticePresenterPush.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72661FA6239ABA3700B4FC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72661FAD239ABA3700B4FC4E /* Practice4NovoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72661FB0239ABA3700B4FC4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609952002386CDF30054B39E /* Practice4Novo */;
+			targetProxy = 72661FAF239ABA3700B4FC4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6099520A2386CDF30054B39E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6099520B2386CDF30054B39E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6099520F2386CDFC0054B39E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609952102386CDFC0054B39E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		609952132386CDFC0054B39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		609952142386CDFC0054B39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		609952162386CDFC0054B39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04E10DFF158AE09BF592736 /* Pods-Practice4Novo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				INFOPLIST_FILE = Practice4Novo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uzupis.Practice4Novo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		609952172386CDFC0054B39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C8A98CB5D018AFA38D2CD2 /* Pods-Practice4Novo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				INFOPLIST_FILE = Practice4Novo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Uzupis.Practice4Novo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72661FB2239ABA3700B4FC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Practice4NovoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Novo.Practice4NovoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice4Novo.app/Practice4Novo";
+			};
+			name = Debug;
+		};
+		72661FB3239ABA3700B4FC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Practice4NovoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Novo.Practice4NovoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice4Novo.app/Practice4Novo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		609951FC2386CDF30054B39E /* Build configuration list for PBXProject "Practice4Novo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609952132386CDFC0054B39E /* Debug */,
+				609952142386CDFC0054B39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609952152386CDFC0054B39E /* Build configuration list for PBXNativeTarget "Practice4Novo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609952162386CDFC0054B39E /* Debug */,
+				609952172386CDFC0054B39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72661FB1239ABA3700B4FC4E /* Build configuration list for PBXNativeTarget "Practice4NovoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72661FB2239ABA3700B4FC4E /* Debug */,
+				72661FB3239ABA3700B4FC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 609951F92386CDF30054B39E /* Project object */;
+}
