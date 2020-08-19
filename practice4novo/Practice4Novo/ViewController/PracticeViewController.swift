@@ -22,9 +22,13 @@ class PracticeViewController: BaseViewController, PresenterDelegate, UNUserNotif
         // Do any additional setup after loading the view.
         self.presenter = PracticePresenterPush()
         presenter!.delegate = self
+        self.practiceAnalytics()
     }
     
-
+    private func practiceAnalytics() {
+        
+    }
+    
     /*
     // MARK: - Navigation
 

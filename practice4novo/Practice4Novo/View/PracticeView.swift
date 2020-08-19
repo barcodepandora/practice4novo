@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class PracticeView: UIView {
 
@@ -47,5 +48,6 @@ class PracticeView: UIView {
         }
     @IBAction func onButtonClick(_ sender: Any) {
         print("LAURA")
+        Analytics.logEvent("EjercicioAnalytics", parameters: [:])
     }
 }
