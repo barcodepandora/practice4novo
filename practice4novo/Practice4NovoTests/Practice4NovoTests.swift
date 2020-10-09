@@ -34,4 +34,9 @@ class Practice4NovoTests: XCTestCase {
         let base = 1
         XCTAssertTrue(base == 1)
     }
+
+    func testReturnTwo() {
+        let base = 1
+        XCTAssertTrue(base == 2)
+    }
 }
